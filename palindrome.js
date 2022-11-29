@@ -10,10 +10,10 @@
 
 
 
-
-bag=0
+ let str = "naman";
+  bag="";
     for(let i=str.length-1;i>=0;i--){
-        bag=bag+i
+        bag=bag+str[i];
     }
     if(bag===str){
         console.log("Yes")
